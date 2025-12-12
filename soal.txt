@@ -1,0 +1,199 @@
+Dalam pemrograman C, kode yang ditulis oleh programmer tidak dapat dijalankan langsung oleh komputer. Proses apakah yang mengubah kode sumber menjadi bahasa mesin?
+Interpretasi otomatis;Proses kompilasi;Penyimpanan kode ke RAM;Optimasi program
+B
+
+Setiap program C membutuhkan titik awal eksekusi. Fungsi manakah yang digunakan sebagai titik mulai program?
+start();main();run();init()
+B
+
+Agar compiler dapat mengenali file program C, ekstensi apa yang harus digunakan?
+.c;.exe;.compile;.txt
+A
+
+Bahasa C memiliki aturan yang ketat dalam penggunaan tanda baca dan struktur, seperti penggunaan titik koma. Aturan penulisan ini disebut apa?
+Syntax;Semantic;Execution rule;Format structure
+A
+
+Pada awal program C sering terdapat baris #include <stdio.h>. Mengapa baris ini harus ditulis?
+Untuk menambah kecepatan program;Untuk menyertakan pustaka fungsi standar;Untuk menyimpan variabel global;Untuk memulai eksekusi program
+B
+
+Ketika program harus memilih satu jalur dari beberapa kondisi, struktur kontrol apa yang paling tepat digunakan?
+loop;switch;goto;function
+B
+
+Ada perulangan yang akan selalu mengeksekusi satu kali sebelum memeriksa kondisi. Perulangan apakah itu?
+for;while;do-while;infinite loop
+C
+
+Jika kamu ingin memeriksa dua kondisi sekaligus dan memastikan keduanya benar, operator logika apa yang digunakan?
+||;!;&;&amp;&amp;
+D
+
+Di dalam perulangan, terkadang kita perlu menghentikan loop sebelum mencapai akhir iterasi. Pernyataan apa yang digunakan untuk menghentikan loop secara paksa?
+continue;stop;break;escape
+C
+
+Perulangan for dengan format for(i = 0; i < 5; i++) akan berjalan sebanyak berapa kali?
+6 kali;4 kali;5 kali;Tidak dapat ditentukan
+C
+
+Dalam bahasa C, tipe data char menyimpan satu karakter. Karakter tersebut direpresentasikan menggunakan sistem pengkodean apa?
+Binary;Unicode;ASCII;UTF-32
+C
+
+String dalam C adalah deretan karakter yang memiliki penanda akhir tertentu. Karakter apakah yang digunakan untuk menandai akhir string?
+\0;#;--;""
+A
+
+Jika ingin mengetahui panjang sebuah string, fungsi standar manakah yang digunakan?
+strlen();count();size();strlength();
+A
+
+Pengambilan input berupa string harus aman dari buffer overflow. Fungsi apa yang lebih aman digunakan dibandingkan gets()?
+fgets();scan();take();cin();
+A
+
+Untuk membandingkan dua string apakah isinya sama, fungsi apa yang digunakan?
+strcmp();strcompare();strsame();strcheck();
+A
+
+Tidak semua fungsi mengembalikan nilai. Jika suatu fungsi tidak mengembalikan nilai, tipe apa yang digunakan dalam deklarasinya?
+empty;int;void;none
+C
+
+Ketika ingin menggunakan printf atau scanf, pustaka apa yang wajib disertakan?
+stdlib.h;stdio.h;string.h;ctype.h
+B
+
+Variabel yang hanya dapat diakses di dalam fungsi tempat ia dideklarasikan disebut sebagai apa?
+Global;Static;Const;Local
+D
+
+Kata kunci return memiliki fungsi khusus di dalam sebuah fungsi. Apa fungsi utamanya?
+Menghapus memori;Mengulang program;Mengakhiri fungsi dan mengembalikan nilai;Mendefinisikan variabel
+C
+
+Dalam konsep fungsi, terdapat teknik ketika dua fungsi memiliki nama sama tetapi parameternya berbeda. Teknik ini disebut apa?
+Override;Overload;Reassign;Rebuild
+B
+
+Array dalam bahasa C berisi elemen-elemen yang tersusun berurutan. Elemen-elemen tersebut memiliki sifat apa?
+Tipe datanya bebas;Tipe datanya sama;Tipe acak;Berubah sesuai index
+B
+
+Array dua dimensi sering digunakan untuk menyimpan data berbentuk tabel. Istilah umum untuk array 2D adalah?
+Grid;Matrix;Block;Square array
+B
+
+Di dalam array bahasa C, indeks pertama elemen selalu dimulai dari angka berapa?
+1;0;2;Tergantung compiler
+B
+
+Jika array dideklarasikan sebagai int A[10], maka array tersebut memiliki berapa elemen?
+9;10;11;Tidak diketahui
+B
+
+Ketika sebuah array dikirim ke fungsi, apa yang sebenarnya diteruskan?
+Nilai elemen;Kopi array;Alamat elemen pertama;Jumlah elemen
+C
+
+Pointer adalah variabel yang memiliki peran khusus. Pointer menyimpan apa?
+Tipe data;Ukuran memori;Alamat memori;Nilai langsung
+C
+
+Operator apakah yang digunakan untuk mengambil alamat suatu variabel?
+*;&;#;%
+B
+
+Deklarasi int *p berarti p merupakan apa?
+Array;Pointer ke integer;Variabel integer;Reference
+B
+
+Jika ingin sebuah fungsi dapat mengubah nilai variabel asli di luar fungsi, teknik apa yang digunakan?
+Pass by referensi;Pass by value;Call by name;Memory map
+A
+
+Untuk mendapatkan nilai yang ditunjuk pointer, operator apa yang digunakan?
+%;!;*;&
+C
+
+Dalam rekursi, sebuah fungsi dapat memanggil dirinya sendiri. Konsep ini disebut apa?
+Self-call;Loop inside function;Recursive call;Function mirroring
+C
+
+Agar rekursi tidak berjalan tanpa henti, diperlukan kondisi penghentian. Kondisi ini disebut apa?
+Stop flag;End rule;Base case;Terminal bind
+C
+
+Salah satu contoh paling umum dari algoritma rekursif adalah menghitung nilai deret tertentu. Manakah contoh rekursi klasik?
+Sorting array;Fibonacci;Switch case;Operator modulo
+B
+
+Jika sebuah fungsi rekursif tidak memiliki base case, apa yang mungkin terjadi?
+Program berhenti normal;Loop berhenti;Terjadi infinite recursion;Variabel hilang
+C
+
+Proses rekursi dapat digantikan oleh teknik lain dalam pemrograman. Teknik apakah itu?
+Stack only;Perulangan;Struct;Pointer shifting
+B
+
+Struct digunakan untuk mengelompokkan beberapa data dengan tipe berbeda ke dalam satu kesatuan. Struct termasuk jenis apa?
+Block scope;Composite type;Primitive type;Compiled type
+B
+
+Union berbeda dari struct karena semua member di dalam union...
+Memiliki ukuran sama;Berbagi ruang memori yang sama;Tidak dapat diakses;Selalu integer
+B
+
+Enum biasanya digunakan untuk membuat kumpulan nilai dengan tujuan apa?
+Menyimpan nilai acak;Representasi konstanta bernama;Menyimpan pointer;Menyimpan karakter
+B
+
+Operator bitwise OR pada C digunakan untuk menggabungkan bit tertentu. Operator ini adalah?
+&;|;^;<<
+B
+
+Saat menggunakan operator << pada bilangan biner, bit akan bergeser ke arah mana?
+Kiri;Kanan;Atas;Bawah
+A
+
+Pada struktur linked list, setiap node umumnya memiliki dua bagian utama. Dua bagian tersebut adalah?
+Data dan pointer;Size dan data;Pointer dan array;Alamat dan ukuran
+A
+
+Stack adalah struktur data yang mengikuti prinsip tertentu ketika menambah atau menghapus elemen. Prinsip apakah itu?
+FIFO;LIFO;Random access;Reverse access
+B
+
+Queue merupakan struktur data yang memproses elemen dalam urutan tertentu. Prinsip apakah yang digunakan queue?
+LIFO;FIFO;Middle-out;Double direction
+B
+
+Dalam struktur tree, simpul yang berada di posisi paling atas disebut apa?
+Node level 1;Leaf;Root;Parent node
+C
+
+Double linked list adalah daftar berantai yang memiliki dua pointer. Arah dua pointer tersebut adalah?
+Prev dan next;Left dan right;Up dan down;Start dan end
+A
+
+Untuk membuka file dalam bahasa C, digunakan fungsi tertentu yang mengembalikan FILE pointer. Fungsi apakah itu?
+startfile();fileOpen();fopen();open()
+C
+
+Mode “r” digunakan saat membuka file untuk keperluan apa?
+Menulis file;Membaca file;Menghapus file;Menambah data
+B
+
+Operasi random access pada file dilakukan menggunakan fungsi untuk memindah posisi pointer file. Fungsi apakah itu?
+fseek();fmove();freset();fmark();
+A
+
+Struktur FILE* digunakan untuk apa dalam pemrosesan file?
+Menyimpan ukuran file;Menyimpan tipe data;Menunjuk ke file yang dibuka;Mengatur loop
+C
+
+Untuk menulis data dalam bentuk biner ke file, fungsi apa yang digunakan?
+fprint();fwrite();savebin();binwrite();
+B
